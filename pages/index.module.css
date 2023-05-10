@@ -60,12 +60,14 @@
   position: relative;
   font-size: 10.47px;
   font-family: var(--font-roboto);
-  color: var(--color-cornflowerblue-100);
   text-align: left;
   display: inline-block;
-  width: 35.13px;
   height: 11.96px;
   flex-shrink: 0;
+}
+.explore {
+  color: #1262af;
+  width: 35.13px;
 }
 .hotels,
 .offers,
@@ -403,14 +405,16 @@
 .sin,
 .singapore,
 .upcomingFlight {
-  position: relative;
-  font-size: 13.46px;
   letter-spacing: 0.04em;
-  text-transform: uppercase;
   display: inline-block;
   font-family: var(--font-roboto);
-  color: var(--color-darkslategray-200);
   text-align: left;
+}
+.upcomingFlight {
+  position: relative;
+  font-size: 13.46px;
+  text-transform: uppercase;
+  color: #303030;
   width: 947.92px;
 }
 .sin,
@@ -733,8 +737,7 @@
   justify-content: space-between;
 }
 .flightDetails,
-.prepareMenu,
-.upcomingFlightSection {
+.prepareMenu {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -744,806 +747,27 @@
   flex-direction: column;
   gap: 14.95px;
 }
-.flightDetails,
-.upcomingFlightSection {
+.flightDetails {
   align-self: stretch;
   flex-direction: row;
   gap: 26.91px;
 }
-.upcomingFlightSection {
-  flex-direction: column;
-  gap: 14.95px;
-}
-.mostPopularDestinations,
-.planYourNext {
-  align-self: stretch;
-  position: relative;
-  font-size: 13.46px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  font-family: var(--font-roboto);
-  color: var(--color-cornflowerblue-200);
-  text-align: left;
-}
-.mostPopularDestinations {
-  font-size: 22.43px;
-  text-transform: capitalize;
-  color: var(--color-darkslategray-200);
-}
-.titleContainer {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 4.49px;
-}
-.viewAllDestinations {
-  position: relative;
-  font-size: 13.46px;
-  letter-spacing: 0.04em;
-  font-weight: 500;
-  font-family: var(--font-roboto);
-  color: var(--color-cornflowerblue-200);
-  text-align: right;
-  display: inline-block;
-  width: 147.51px;
-  flex-shrink: 0;
-}
-.destinationsTitles,
-.viewAllTop {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.viewAllTop {
-  text-decoration: none;
-  border-radius: 23.17px;
-  background-color: var(--primary-contrast);
-  width: 172.97px;
-  align-items: flex-start;
-  gap: 7.48px;
-}
-.destinationsTitles {
-  align-self: stretch;
-  align-items: center;
-}
-.unsplashnnzkznywhauIcon {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-}
-.div,
-.from,
-.paris {
-  color: var(--primary-contrast);
-}
-.paris {
-  flex: 1;
-  position: relative;
-  font-size: 14.95px;
-  letter-spacing: 0.02em;
-  font-family: var(--font-roboto);
-  text-align: left;
-}
-.div,
-.from {
-  position: absolute;
-  text-align: right;
-  display: inline-block;
-}
-.div {
-  top: 15.7px;
-  left: 0;
-  font-size: 28.41px;
-  line-height: 28.41px;
-  font-family: var(--font-baloo-bhai);
-  width: 67.97px;
-  height: 28.41px;
-}
-.from {
-  top: 0;
-  left: 28.7px;
-  font-size: 11.96px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  font-family: var(--font-roboto);
-  width: 39.27px;
-  height: 14.2px;
-}
-.parent {
-  position: relative;
-  width: 67.97px;
-  height: 44.1px;
-}
-.destinationDetails {
-  position: absolute;
-  width: calc(100% - 0.44px);
-  top: 0;
-  right: 0.22px;
-  left: 0.22px;
-  display: flex;
-  flex-direction: row;
-  padding: 5.980316638946533px 8.970474243164062px;
-  box-sizing: border-box;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.unsplashnnzkznywhauParent {
-  align-self: stretch;
-  position: relative;
-  border-radius: 7.48px;
-  height: 136.05px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.card1 {
-  cursor: pointer;
-  border: 0;
-  padding: 0 11.960633277893066px;
-  background-color: transparent;
-  width: 25%;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: center;
-}
-.div1,
-.from1 {
-  position: absolute;
-  color: var(--primary-contrast);
-  text-align: right;
-  display: inline-block;
-}
-.div1 {
-  top: 15.7px;
-  left: 0;
-  font-size: 28.41px;
-  line-height: 28.41px;
-  font-family: var(--font-baloo-bhai);
-  width: 74.01px;
-  height: 28.41px;
-}
-.from1 {
-  top: 0;
-  left: 35.43px;
-  font-size: 11.96px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  font-family: var(--font-roboto);
-  width: 39.27px;
-  height: 14.2px;
-}
-.group {
-  position: relative;
-  width: 74.7px;
-  height: 44.1px;
-}
-.div3,
-.from3 {
-  position: absolute;
-  color: var(--primary-contrast);
-  text-align: right;
-  display: inline-block;
-}
-.div3 {
-  top: 15.7px;
-  left: 0;
-  font-size: 28.41px;
-  line-height: 28.41px;
-  font-family: var(--font-baloo-bhai);
-  width: 75.22px;
-  height: 28.41px;
-}
-.from3 {
-  top: 0;
-  left: 35.95px;
-  font-size: 11.96px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  font-family: var(--font-roboto);
-  width: 39.27px;
-  height: 14.2px;
-}
-.parent2 {
-  position: relative;
-  width: 75.22px;
-  height: 44.1px;
-}
-.cardsContainer {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  margin-left: -16px;
-  margin-right: -16px;
-}
-.viewAllDestinations1 {
-  position: relative;
-  font-size: 13.46px;
-  letter-spacing: 0.04em;
-  font-weight: 500;
-  font-family: var(--font-roboto);
-  color: var(--color-cornflowerblue-200);
-  text-align: right;
-  display: inline-block;
-  width: 147.51px;
-  flex-shrink: 0;
-}
-.popDestinationsMain,
-.viewAllBottom {
-  display: none;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.viewAllBottom {
-  border-radius: 23.17px;
-  background-color: var(--primary-contrast);
-  width: 172.97px;
-  flex-direction: row;
-  gap: 7.48px;
-}
-.popDestinationsMain {
-  align-self: stretch;
-  flex-direction: column;
-  gap: 17.94px;
-}
-.recommendedHolidays,
-.viewAllHolidays {
-  position: relative;
-  letter-spacing: 0.04em;
-  font-family: var(--font-roboto);
-}
-.recommendedHolidays {
-  flex: 1;
-  font-size: 22.43px;
-  text-transform: capitalize;
-  color: var(--color-darkslategray-200);
-  text-align: left;
-}
-.viewAllHolidays {
-  font-size: 13.46px;
-  font-weight: 500;
-  color: var(--color-cornflowerblue-200);
-  text-align: right;
-  display: inline-block;
-  width: 124.01px;
-  flex-shrink: 0;
-}
-.recTitle,
-.viewAllHolidaysParent {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.viewAllHolidaysParent {
-  text-decoration: none;
-  border-radius: 23.17px;
-  background-color: var(--primary-contrast);
-  width: 149.43px;
-  align-items: flex-start;
-  gap: 7.48px;
-}
-.recTitle {
-  align-self: stretch;
-  align-items: center;
-}
-.unsplash5mv818tzxeoIcon {
-  align-self: stretch;
-  position: relative;
-  border-radius: 7.48px 7.48px 0 0;
-  max-width: 100%;
-  overflow: hidden;
-  height: 180.9px;
-  flex-shrink: 0;
-  object-fit: cover;
-}
-.bali,
-.d3n {
-  align-self: stretch;
-  position: relative;
-  letter-spacing: 0.02em;
-  font-family: var(--font-roboto);
-  text-align: left;
-}
-.bali {
-  font-size: 14.95px;
-  font-weight: 500;
-  color: var(--color-darkslategray-100);
-}
-.d3n {
-  font-size: 11.96px;
-  color: var(--color-darkgray);
-}
-.baliParent {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 2.24px;
-}
-.div4 {
-  position: relative;
-  font-size: 23.92px;
-  line-height: 25.42px;
-  font-family: var(--font-baloo-bhai);
-  color: var(--color-cornflowerblue-100);
-  text-align: right;
-  display: inline-block;
-  width: 53.82px;
-  height: 25.42px;
-  flex-shrink: 0;
-}
-.holidayDetails,
-.recCard1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.holidayDetails {
-  align-self: stretch;
-  border-radius: 0 0 7.48px 7.48px;
-  background-color: var(--primary-contrast);
-  border: 0.7px solid var(--color-whitesmoke);
-  padding: 14.950791358947754px 11.960633277893066px;
-  justify-content: center;
-}
-.recCard1 {
-  cursor: pointer;
-  border: 0;
-  padding: 0 11.960633277893066px;
-  background-color: transparent;
-  flex: 1;
-  box-sizing: border-box;
-  justify-content: flex-start;
-  width: 25%;
-}
-.div5 {
-  position: relative;
-  font-size: 23.92px;
-  line-height: 25.42px;
-  font-family: var(--font-baloo-bhai);
-  color: var(--color-cornflowerblue-100);
-  text-align: right;
-  display: inline-block;
-  width: 56.07px;
-  height: 25.42px;
-  flex-shrink: 0;
-}
-.recCard3 {
-  cursor: pointer;
-  border: 0;
-  padding: 0 11.960633277893066px;
-  background-color: transparent;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: flex-start;
-  width: 25%;
-}
-.div7 {
-  position: relative;
-  font-size: 23.92px;
-  line-height: 25.42px;
-  font-family: var(--font-baloo-bhai);
-  color: var(--color-cornflowerblue-100);
-  text-align: right;
-  display: inline-block;
-  width: 52.33px;
-  height: 25.42px;
-  flex-shrink: 0;
-}
-.recCard4,
-.recCardsContainer {
-  display: flex;
-  justify-content: flex-start;
-}
-.recCard4 {
-  cursor: pointer;
-  border: 0;
-  padding: 0 11.960633277893066px;
-  background-color: transparent;
-  flex: 1;
-  flex-direction: column;
-  box-sizing: border-box;
-  align-items: center;
-  width: 25%;
-}
-.recCardsContainer {
-  align-self: stretch;
-  flex-direction: row;
-  align-items: flex-start;
-  margin-left: -16px;
-  margin-right: -16px;
-}
-.viewAllHolidays1 {
-  position: relative;
-  font-size: 13.46px;
-  letter-spacing: 0.04em;
-  font-weight: 500;
-  font-family: var(--font-roboto);
-  color: var(--color-cornflowerblue-200);
-  text-align: right;
-  display: inline-block;
-  width: 124.01px;
-  flex-shrink: 0;
-}
-.viewAllBottom1 {
-  border-radius: 23.17px;
-  background-color: var(--primary-contrast);
-  width: 149.43px;
-  display: none;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 7.48px;
-}
-.recommendedHolidaysContainer {
-  align-self: stretch;
-  display: none;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 17.94px;
-}
-.popularStays1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 22.43px;
-  letter-spacing: 0.04em;
-  text-transform: capitalize;
-  display: inline-block;
-  font-family: var(--font-roboto);
-  color: var(--color-darkslategray-200);
-  text-align: left;
-  width: 826.29px;
-  height: 26.16px;
-}
-.popularStaysTitle {
-  flex: 1;
-  position: relative;
-  height: 26.16px;
-}
-.viewAllStays {
-  position: relative;
-  font-size: 13.46px;
-  letter-spacing: 0.04em;
-  font-weight: 500;
-  font-family: var(--font-roboto);
-  color: var(--color-cornflowerblue-200);
-  text-align: right;
-  display: inline-block;
-  width: 105.15px;
-  flex-shrink: 0;
-}
-.viewAllStaysParent {
-  text-decoration: none;
-  border-radius: 23.17px;
-  background-color: var(--primary-contrast);
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 7.48px;
-}
-.popularStaysHeader {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.unsplashhhrfsdwxxusIcon {
-  align-self: stretch;
-  position: relative;
-  border-radius: 7.48px;
-  max-width: 100%;
-  overflow: hidden;
-  height: 149.51px;
-  flex-shrink: 0;
-  object-fit: cover;
-}
-.entireBungalow,
-.matterhornSuites,
-.night {
-  align-self: stretch;
-  position: relative;
-  font-family: var(--font-roboto);
-  text-align: left;
-}
-.entireBungalow {
-  font-size: 11.96px;
-  letter-spacing: 0.02em;
-  color: var(--color-gray-100);
-}
-.matterhornSuites,
-.night {
-  letter-spacing: 0.04em;
-  color: var(--color-darkslategray-200);
-}
-.matterhornSuites {
-  font-size: 16.45px;
-  text-transform: capitalize;
-}
-.night {
-  font-size: 13.46px;
-}
-.entireBungalowParent {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 4.49px;
-}
-.videoIcon {
-  position: relative;
-  width: 18.69px;
-  height: 18.69px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.stayDetails {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 8.22px;
-}
-.div8,
-.reviews {
-  position: absolute;
-  top: 0;
-  left: 40.09px;
-  font-size: 11.96px;
-  letter-spacing: 0.04em;
-  font-family: var(--font-roboto);
-  color: var(--color-cornflowerblue-100);
-  text-align: left;
-  display: inline-block;
-  width: 161.74px;
-  height: 14.2px;
-}
-.div8 {
-  left: 15.21px;
-  font-weight: 500;
-  color: var(--color-darkslategray-200);
-  width: 17.94px;
-}
-.parent3,
-.vectorIcon3 {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.vectorIcon3 {
-  height: 90.47%;
-  width: 37.54%;
-  right: 62.46%;
-  bottom: 9.53%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.parent3 {
-  width: 33.15px;
-  height: 14.2px;
-}
-.rating {
-  align-self: stretch;
-  position: relative;
-  height: 14.2px;
-}
-.button1 {
-  position: relative;
-  font-size: 11.21px;
-  letter-spacing: 0.34px;
-  line-height: 19.44px;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-family: var(--font-roboto);
-  color: var(--color-cornflowerblue-100);
-  text-align: left;
-  display: inline-block;
-  width: 81.48px;
-  height: 19.44px;
-  flex-shrink: 0;
-}
-.moreDetailsButton {
-  cursor: pointer;
-  border: 0.7px solid var(--color-lavender);
-  padding: 0;
-  background-color: transparent;
-  align-self: stretch;
-  border-radius: 2.99px;
-  box-sizing: border-box;
-  height: 34.39px;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.hotelCard,
-.hotelCard1,
-.stayDetails1 {
-  align-self: stretch;
-  flex: 1;
-  display: flex;
-  align-items: flex-start;
-}
-.hotelCard {
-  text-decoration: none;
-  border-radius: 7.48px;
-  background-color: var(--primary-contrast);
-  border: 0.7px solid var(--color-whitesmoke);
-  box-sizing: border-box;
-  flex-direction: column;
-  padding: 11.213094711303711px 9.71801471710205px;
-  justify-content: flex-start;
-  gap: 17.19px;
-  width: 25%;
-}
-.hotelCard4:hover,
-.hotelCard5:hover,
-.hotelCard:hover {
-  background-color: var(--color-gainsboro-200);
-}
-.hotelCard1,
-.stayDetails1 {
-  flex-direction: row;
-}
-.hotelCard1 {
-  padding: 0 8.970474243164062px;
-  box-sizing: border-box;
-  justify-content: center;
-  width: 25%;
-}
-.stayDetails1 {
-  justify-content: flex-start;
-}
-.arcticHut,
-.div10,
-.reviews2 {
-  letter-spacing: 0.04em;
-  font-family: var(--font-roboto);
-  text-align: left;
-}
-.arcticHut {
-  align-self: stretch;
-  position: relative;
-  font-size: 16.45px;
-  text-transform: capitalize;
-  color: var(--color-darkslategray-200);
-}
-.div10,
-.reviews2 {
-  position: absolute;
-  top: 0;
-  left: 40.17px;
-  font-size: 11.96px;
-  color: var(--color-cornflowerblue-100);
-  display: inline-block;
-  width: 161.67px;
-  height: 14.2px;
-}
-.div10 {
-  left: 15.23px;
-  font-weight: 500;
-  color: var(--color-darkslategray-200);
-  width: 17.94px;
-}
-.parent5,
-.vectorIcon5 {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.vectorIcon5 {
-  height: 90.47%;
-  width: 37.58%;
-  right: 62.42%;
-  bottom: 9.53%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.parent5 {
-  width: 33.18px;
-  height: 14.2px;
-}
-.hotelCard4,
-.hotelCard5 {
-  text-decoration: none;
-  align-self: stretch;
-  flex: 1;
-  border-radius: 7.48px;
-  background-color: var(--primary-contrast);
-  border: 0.7px solid var(--color-whitesmoke);
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  padding: 11.213094711303711px 9.71801471710205px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 17.19px;
-  width: 25%;
-}
-.hotelCard41,
-.hotelCards {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-}
-.hotelCard41 {
-  flex: 1;
-  padding: 0 8.970474243164062px;
-  box-sizing: border-box;
-  align-items: flex-start;
-  justify-content: center;
-  width: 25%;
-}
-.hotelCards {
-  align-items: center;
-  justify-content: flex-start;
-  margin-left: -12px;
-  margin-right: -12px;
-}
-.viewAllStays1 {
-  position: relative;
-  font-size: 13.46px;
-  letter-spacing: 0.04em;
-  font-weight: 500;
-  font-family: var(--font-roboto);
-  color: var(--color-cornflowerblue-200);
-  text-align: right;
-  display: inline-block;
-  width: 105.15px;
-  flex-shrink: 0;
-}
-.viewAllStaysGroup {
-  border-radius: 23.17px;
-  background-color: var(--primary-contrast);
-  display: none;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 7.48px;
-}
 .homeContents,
-.popularStays {
+.upcomingFlightSection {
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.popularStays {
+.upcomingFlightSection {
   align-self: stretch;
-  display: none;
   align-items: flex-start;
   gap: 14.95px;
 }
 .homeContents {
   width: 100%;
-  display: flex;
   padding: 0 59.803165435791016px;
   box-sizing: border-box;
   align-items: center;
-  gap: 59.8px;
   max-width: 1280px;
 }
 .frameChild {
@@ -1611,7 +835,7 @@
   justify-content: flex-start;
   gap: 7.48px;
 }
-.button6 {
+.button2 {
   position: relative;
   font-size: 11.21px;
   letter-spacing: 0.34px;
@@ -1622,7 +846,7 @@
   color: var(--primary-contrast);
   text-align: left;
 }
-.button5,
+.button1,
 .unstyledbutton {
   overflow: hidden;
   display: flex;
@@ -1631,7 +855,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.button5 {
+.button1 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -1643,7 +867,7 @@
   align-items: center;
   justify-content: center;
 }
-.button5:hover {
+.button1:hover {
   background-color: #99600a;
 }
 .form,
@@ -1675,11 +899,11 @@
   margin-right: auto;
 }
 .fickleFlightIs,
-.rectangleParent1 {
+.frameDiv {
   align-self: stretch;
   position: relative;
 }
-.rectangleParent1 {
+.frameDiv {
   background-color: #f3f7fb;
   height: 395.45px;
   overflow: hidden;
@@ -1914,7 +1138,7 @@
   height: 960px;
   overflow: hidden;
   text-align: left;
-  font-size: var(--font-size-xl);
+  font-size: 20px;
   color: var(--primary-contrast);
   font-family: var(--font-roboto);
 }
@@ -1927,22 +1151,9 @@
   .flightMainContainer {
     width: 520px;
   }
-  .hotelCard,
-  .hotelCard4,
-  .hotelCard5 {
-    width: 25% !important;
-  }
-  .footer,
-  .hotelCards {
-    box-sizing: border-box;
-  }
-  .hotelCards {
-    padding-right: var(--padding-21xl);
-    margin-left: -12px;
-    margin-right: -50px;
-  }
   .footer {
     padding: var(--padding-21xl);
+    box-sizing: border-box;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1998,78 +1209,6 @@
   }
   .upcomingFlightSection {
     display: block;
-  }
-  .viewAllTop {
-    display: none;
-  }
-  .card1 {
-    padding: var(--padding-base);
-    box-sizing: border-box;
-    width: 50%;
-  }
-  .cardsContainer {
-    flex-wrap: wrap;
-    margin: -16px;
-  }
-  .viewAllDestinations1 {
-    width: auto;
-  }
-  .viewAllBottom {
-    display: flex;
-    margin-top: 16px;
-  }
-  .viewAllHolidaysParent {
-    display: none;
-  }
-  .recCard1 {
-    width: 50%;
-    margin-bottom: 32px;
-  }
-  .recCard3,
-  .recCard4 {
-    width: 50%;
-  }
-  .recCardsContainer {
-    margin-left: -16px;
-    margin-right: -16px;
-    flex-wrap: wrap;
-  }
-  .viewAllHolidays1 {
-    width: auto;
-  }
-  .viewAllBottom1 {
-    display: flex;
-    mrgin-top: 16px;
-  }
-  .viewAllStaysParent {
-    display: none;
-  }
-  .hotelCard {
-    width: 100%;
-  }
-  .hotelCard1 {
-    width: 33.33%;
-  }
-  .hotelCard4 {
-    width: 100%;
-  }
-  .hotelCard5 {
-    width: 33.33% !important;
-  }
-  .hotelCard41 {
-    display: none;
-    width: 33.33%;
-  }
-  .hotelCards {
-    margin-right: -50px;
-    margin-left: -12px;
-  }
-  .viewAllStays1 {
-    width: auto;
-  }
-  .viewAllStaysGroup {
-    display: flex;
-    margin-top: 16px;
   }
   .homeContents {
     padding-left: var(--padding-11xl);
@@ -2130,69 +1269,10 @@
     margin-left: -28px;
     margin-right: -28px;
   }
-  .mostPopularDestinations {
-    font-size: var(--font-size-3xl);
-  }
-  .titleContainer {
-    flex: unset;
-    align-self: stretch;
-  }
-  .destinationsTitles {
-    flex-direction: column;
-    align-self: flex-start;
-  }
-  .card1 {
+  .button1 {
     width: 100%;
   }
-  .recommendedHolidays {
-    font-size: var(--font-size-3xl);
-  }
-  .recCard1,
-  .recCard3 {
-    width: 100%;
-    margin-bottom: 32px;
-  }
-  .recCard4 {
-    width: 100%;
-  }
-  .popularStays1 {
-    font-size: var(--font-size-3xl);
-  }
-  .matterhornSuites {
-    font-size: var(--font-size-xl);
-  }
-  .hotelCard,
-  .moreDetailsButton {
-    width: 100% !important;
-  }
-  .hotelCard {
-    margin-bottom: 20px;
-  }
-  .hotelCard1 {
-    width: 100%;
-    flex: unset;
-    align-self: stretch;
-  }
-  .hotelCard4,
-  .hotelCard5 {
-    display: flex;
-    width: 100% !important;
-  }
-  .hotelCard41 {
-    flex: unset;
-    align-self: stretch;
-  }
-  .hotelCards {
-    flex-direction: column;
-    padding-right: 0;
-    box-sizing: border-box;
-    margin-right: -12px;
-    margin-left: -12px;
-  }
-  .button5 {
-    width: 100%;
-  }
-  .button5:hover {
+  .button1:hover {
     background-color: #9e6104;
   }
   .shareYourTravelsForm {
