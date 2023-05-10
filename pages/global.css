@@ -10,15 +10,15 @@ body {
 :root {
   /* fonts */
   --font-inter: Inter;
-  --components-button-large: Roboto;
+  --font-roboto: Roboto;
   --font-baloo-bhai: "Baloo Bhai";
 
   /* font sizes */
   --font-size-xs: 12px;
-  --components-button-large-size: 15px;
+  --font-size-mini: 15px;
   --font-size-sm-5: 13.5px;
-  --font-size-3xl-4: 22.4px;
   --font-size-xs-2: 11.2px;
+  --font-size-3xl-4: 22.4px;
   --font-size-base-5: 16.5px;
   --font-size-xl: 20px;
   --font-size-3xl: 22px;

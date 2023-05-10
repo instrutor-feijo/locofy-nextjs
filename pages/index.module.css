@@ -59,7 +59,7 @@
 .search {
   position: relative;
   font-size: 10.47px;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-cornflowerblue-100);
   text-align: left;
   display: inline-block;
@@ -170,7 +170,7 @@
 .findTheBest {
   font-size: 17.94px;
   line-height: 23.92px;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
 }
 .title {
   display: flex;
@@ -200,7 +200,7 @@
   font-size: 8.97px;
   letter-spacing: 0.11px;
   line-height: 8.97px;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: rgba(0, 0, 0, 0.6);
   text-align: left;
   width: 26.16px;
@@ -227,7 +227,7 @@
   font-size: 8.97px;
   letter-spacing: 0.3px;
   line-height: 166%;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-dimgray);
   text-align: center;
   display: flex;
@@ -247,7 +247,7 @@
   font-size: 9.72px;
   letter-spacing: 0.12px;
   line-height: 13.46px;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-gray-200);
   text-align: left;
 }
@@ -286,7 +286,7 @@
   font-size: 11.96px;
   letter-spacing: 0.11px;
   line-height: 17.94px;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-gray-200);
   text-align: left;
 }
@@ -334,7 +334,7 @@
   line-height: 19.44px;
   text-transform: uppercase;
   font-weight: 500;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--primary-contrast);
   text-align: center;
   display: inline-block;
@@ -391,6 +391,7 @@
   align-self: stretch;
   position: relative;
   height: 478.43px;
+  display: none;
 }
 .heroSection {
   align-self: stretch;
@@ -407,7 +408,7 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   display: inline-block;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-darkslategray-200);
   text-align: left;
   width: 947.92px;
@@ -444,7 +445,7 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   display: inline-block;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-gray-100);
   text-align: left;
   width: 49.08px;
@@ -471,7 +472,7 @@
   letter-spacing: 0.04em;
   text-transform: capitalize;
   display: inline-block;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-cornflowerblue-200);
   text-align: right;
   width: 38.33px;
@@ -518,7 +519,7 @@
 }
 .days,
 .departsOn1 {
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
 }
 .daysToGoContainer {
   position: relative;
@@ -553,7 +554,7 @@
   font-size: 13.46px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: #cecece;
   text-align: left;
 }
@@ -566,7 +567,7 @@
 .hotel1 {
   font-size: 11.21px;
   letter-spacing: 0.04em;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-gray-100);
   text-align: left;
   display: inline-block;
@@ -611,7 +612,7 @@
   position: relative;
   font-size: 11.21px;
   letter-spacing: 0.04em;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-gray-100);
   text-align: center;
   display: inline-block;
@@ -647,7 +648,7 @@
   position: relative;
   font-size: 11.21px;
   letter-spacing: 0.04em;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-gray-100);
   text-align: center;
   display: inline-block;
@@ -685,7 +686,7 @@
   position: relative;
   font-size: 11.21px;
   letter-spacing: 0.04em;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-gray-100);
   text-align: center;
   display: inline-block;
@@ -716,7 +717,7 @@
   position: relative;
   font-size: 11.21px;
   letter-spacing: 0.04em;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-gray-100);
   text-align: center;
   display: inline-block;
@@ -760,7 +761,7 @@
   font-size: 13.46px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-cornflowerblue-200);
   text-align: left;
 }
@@ -782,7 +783,7 @@
   font-size: 13.46px;
   letter-spacing: 0.04em;
   font-weight: 500;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-cornflowerblue-200);
   text-align: right;
   display: inline-block;
@@ -830,7 +831,7 @@
   position: relative;
   font-size: 14.95px;
   letter-spacing: 0.02em;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   text-align: left;
 }
 .div,
@@ -854,7 +855,7 @@
   font-size: 11.96px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   width: 39.27px;
   height: 14.2px;
 }
@@ -918,7 +919,7 @@
   font-size: 11.96px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   width: 39.27px;
   height: 14.2px;
 }
@@ -949,7 +950,7 @@
   font-size: 11.96px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   width: 39.27px;
   height: 14.2px;
 }
@@ -972,7 +973,7 @@
   font-size: 13.46px;
   letter-spacing: 0.04em;
   font-weight: 500;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-cornflowerblue-200);
   text-align: right;
   display: inline-block;
@@ -1002,7 +1003,7 @@
 .viewAllHolidays {
   position: relative;
   letter-spacing: 0.04em;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
 }
 .recommendedHolidays {
   flex: 1;
@@ -1053,7 +1054,7 @@
   align-self: stretch;
   position: relative;
   letter-spacing: 0.02em;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   text-align: left;
 }
 .bali {
@@ -1174,7 +1175,7 @@
   font-size: 13.46px;
   letter-spacing: 0.04em;
   font-weight: 500;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-cornflowerblue-200);
   text-align: right;
   display: inline-block;
@@ -1207,7 +1208,7 @@
   letter-spacing: 0.04em;
   text-transform: capitalize;
   display: inline-block;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-darkslategray-200);
   text-align: left;
   width: 826.29px;
@@ -1223,7 +1224,7 @@
   font-size: 13.46px;
   letter-spacing: 0.04em;
   font-weight: 500;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-cornflowerblue-200);
   text-align: right;
   display: inline-block;
@@ -1262,7 +1263,7 @@
 .night {
   align-self: stretch;
   position: relative;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   text-align: left;
 }
 .entireBungalow {
@@ -1312,7 +1313,7 @@
   left: 40.09px;
   font-size: 11.96px;
   letter-spacing: 0.04em;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-cornflowerblue-100);
   text-align: left;
   display: inline-block;
@@ -1356,7 +1357,7 @@
   line-height: 19.44px;
   text-transform: uppercase;
   font-weight: 500;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-cornflowerblue-100);
   text-align: left;
   display: inline-block;
@@ -1422,7 +1423,7 @@
 .div10,
 .reviews2 {
   letter-spacing: 0.04em;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   text-align: left;
 }
 .arcticHut {
@@ -1510,7 +1511,7 @@
   font-size: 13.46px;
   letter-spacing: 0.04em;
   font-weight: 500;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--color-cornflowerblue-200);
   text-align: right;
   display: inline-block;
@@ -1560,7 +1561,7 @@
 .formTitleSubtext {
   align-self: stretch;
   position: relative;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   text-align: center;
 }
 .formTitleSubtext {
@@ -1586,7 +1587,7 @@
   position: relative;
   font-size: 13.46px;
   line-height: 25.42px;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: #576074;
   text-align: left;
 }
@@ -1605,12 +1606,12 @@
 }
 .button6 {
   position: relative;
-  font-size: var(--components-button-large-size);
-  letter-spacing: 0.46px;
-  line-height: 26px;
+  font-size: 11.21px;
+  letter-spacing: 0.34px;
+  line-height: 19.44px;
   text-transform: uppercase;
   font-weight: 500;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--primary-contrast);
   text-align: left;
 }
@@ -1680,7 +1681,7 @@
 .fickleFlightIs {
   font-size: 13.46px;
   line-height: 20.18px;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--primary-contrast);
   text-align: left;
 }
@@ -1719,7 +1720,7 @@
 .news {
   position: absolute;
   left: 0;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--primary-contrast);
   text-align: left;
   display: inline-block;
@@ -1759,7 +1760,7 @@
   top: 35.7px;
   left: 0;
   font-size: 11.96px;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--primary-contrast);
   text-align: left;
   display: inline-block;
@@ -1779,7 +1780,7 @@
 .supportCenter {
   position: absolute;
   left: 0;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--primary-contrast);
   text-align: left;
   display: inline-block;
@@ -1804,7 +1805,7 @@
   position: absolute;
   top: 105.22px;
   left: 0;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--primary-contrast);
   text-align: left;
   display: inline-block;
@@ -1820,7 +1821,7 @@
 .tips {
   position: absolute;
   left: 0;
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
   color: var(--primary-contrast);
   text-align: left;
   display: inline-block;
@@ -1909,7 +1910,7 @@
   text-align: left;
   font-size: var(--font-size-xl);
   color: var(--primary-contrast);
-  font-family: var(--components-button-large);
+  font-family: var(--font-roboto);
 }
 @media screen and (max-width: 1440px) {
   .topHeader {
