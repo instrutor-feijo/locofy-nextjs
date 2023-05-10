@@ -647,13 +647,13 @@ const CoverFrame = () => {
                   <b className={styles.formTitle}>Get weekly updates</b>
                 </div>
                 <div className={styles.form}>
-                  <div className={styles.footerSection}>
+                  <div className={styles.formText}>
                     <div className={styles.fillInYour}>
                       Fill in your details to join the party!
                     </div>
                   </div>
                   <div className={styles.formFields}>
-                    <div className={styles.footerSection}>
+                    <div className={styles.formText}>
                       <TextField
                         className={styles.input1}
                         color="primary"
@@ -664,7 +664,7 @@ const CoverFrame = () => {
                         margin="none"
                       />
                     </div>
-                    <div className={styles.footerSection}>
+                    <div className={styles.formText}>
                       <TextField
                         className={styles.input1}
                         color="primary"

@@ -982,6 +982,7 @@
 }
 .popDestinationsMain,
 .viewAllBottom {
+  display: none;
   align-items: flex-start;
   justify-content: flex-start;
 }
@@ -989,13 +990,11 @@
   border-radius: 23.17px;
   background-color: var(--primary-contrast);
   width: 172.97px;
-  display: none;
   flex-direction: row;
   gap: 7.48px;
 }
 .popDestinationsMain {
   align-self: stretch;
-  display: flex;
   flex-direction: column;
   gap: 17.94px;
 }
@@ -1194,7 +1193,7 @@
 }
 .recommendedHolidaysContainer {
   align-self: stretch;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -1529,17 +1528,18 @@
 }
 .homeContents,
 .popularStays {
-  display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 .popularStays {
   align-self: stretch;
+  display: none;
   align-items: flex-start;
   gap: 14.95px;
 }
 .homeContents {
   width: 100%;
+  display: flex;
   padding: 0 59.803165435791016px;
   box-sizing: border-box;
   align-items: center;
@@ -1590,6 +1590,13 @@
   font-family: var(--font-roboto);
   color: #576074;
   text-align: left;
+}
+.formText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .input1 {
   border: 0;
@@ -1850,33 +1857,31 @@
   width: 147.51px;
   height: 119.43px;
 }
+.footer,
 .footerLinks {
-  flex: 1;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between;
 }
-.footer,
-.footerSection,
-.homepage {
-  display: flex;
-  justify-content: flex-start;
+.footerLinks {
+  flex: 1;
+  justify-content: space-between;
 }
 .footer {
   align-self: stretch;
   background: linear-gradient(91.74deg, #0b5ba8 25.38%, #299bd8);
-  flex-direction: row;
   padding: 24.668806076049805px 62.7933235168457px;
-  align-items: flex-start;
+  justify-content: flex-start;
   gap: 32.89px;
 }
 .footerSection,
 .homepage {
   flex-direction: column;
+  justify-content: flex-start;
 }
 .footerSection {
   align-self: stretch;
+  display: none;
   align-items: flex-start;
 }
 .homepage {
@@ -1888,6 +1893,7 @@
   width: 1076.45px;
   height: 850.71px;
   overflow: hidden;
+  display: flex;
   align-items: center;
   gap: 51.58px;
 }
