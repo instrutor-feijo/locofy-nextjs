@@ -6,7 +6,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 
 import "./global.css";
 
-export default function MyApp(props: any) {
+export default function MyApp(props) {
   const { Component, pageProps } = props;
 
   React.useEffect(() => {

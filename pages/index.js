@@ -1,12 +1,11 @@
-import type { NextPage } from "next";
 import { useState } from "react";
 import { Autocomplete, TextField, Icon } from "@mui/material";
 import { LocalizationProvider, DatePicker } from "@mui/x-date-pickers";
 import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import styles from "./index.module.css";
-const CoverFrame: NextPage = () => {
+const CoverFrame = () => {
   const [dateFieldDateTimePickerValue, setDateFieldDateTimePickerValue] =
-    useState<string | null>(null);
+    useState(null);
 
   return (
     <LocalizationProvider dateAdapter={AdapterDateFns}>
@@ -82,7 +81,7 @@ const CoverFrame: NextPage = () => {
                           "Siem Reap (REP)",
                           "Shanghai (PVG)Sanya (SYX)",
                         ]}
-                        renderInput={(params: any) => (
+                        renderInput={(params) => (
                           <TextField
                             {...params}
                             color="primary"
@@ -147,10 +146,10 @@ const CoverFrame: NextPage = () => {
                         <DatePicker
                           label="Date"
                           value={dateFieldDateTimePickerValue}
-                          onChange={(newValue: any) => {
+                          onChange={(newValue) => {
                             setDateFieldDateTimePickerValue(newValue);
                           }}
-                          renderInput={(params: any) => (
+                          renderInput={(params) => (
                             <TextField
                               {...params}
                               color="primary"
